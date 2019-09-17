@@ -1,0 +1,82 @@
+*{
+    backgruond-clor:#ada9a3;
+}
+#header-img{
+    width: 150px;
+    height: 100px;
+}
+header{
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top : 0;
+    background-color: #2C3E50
+}
+ul{
+    float: right;
+    list-style: none;
+    width : 900px;
+    display: flex;
+    justify-content: space-around;
+}
+ul a{
+    display: block;
+    color : white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+li a :hover{
+    background-color: red;
+    color: black;
+}
+
+
+body{
+    margin-top : 200px;
+}
+.hotel-login-form
+{
+    height : 200px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+#howitworks{
+    text-align: center;
+    height: 200px;
+}
+
+#howitworks h1{
+    color: blue;
+}
+.hotel-video{
+    text-align : center;
+    display: flex;
+    justify-content: center;
+}
+#button-input{
+    background: yellow;
+    border-color: yellow;
+    border-radius: 8px;
+}
+
+#text-input{
+    border-radius: 12px;
+    width: 200px;
+    text-align: center;
+}
+
+#feature{
+    height: 200px;
+    text-align: center;
+}
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+  }

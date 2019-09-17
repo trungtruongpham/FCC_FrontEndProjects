@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+html,
+body {
+  background-color: #a9d7d1;
+  text-align: center;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  min-width: 320px;
+}
+
+#description{
+    background-color: white;
+}
+#survey-form{
+    background-color: white;
+}
+
+input:valid{
+    border: solid-green;
+}
+input:invalid{
+    border: solid-red;
+}
+.label{
+    display: inline-block;
+}
+
+.input-field {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
